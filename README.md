@@ -20,6 +20,7 @@ The system is built on a modular, multi-agent design with a pipeline that sequen
     * **Reasoning:** Decomposing the question and generating a reasoning trace to identify needed knowledge.
     * **Summarization:** Summarizing the relevant knowledge from the subgraph based on the reasoning trace.
 3.  **Prompt Augmentation and Answer Generation:** The resulting **Enhanced Rewritten Knowledge** is used to augment the prompt for the **Answer Generation Module**. A powerful **LLM** (e.g., Llama-3 or Mistral) then synthesizes the final, verifiable **Answer** by leveraging the structured context.
+
 ![swimlane1 (1)](https://github.com/user-attachments/assets/1ddf46e0-c287-4e68-ad95-8f2906947feb)
 
 ### 4. Dependencies and Research Context
